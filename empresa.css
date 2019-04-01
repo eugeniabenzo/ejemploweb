@@ -1,0 +1,222 @@
+html{
+    /*! font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+body{
+    width: 1300px;;
+    margin: 0px;
+}
+.nav{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+a{
+    color: black;
+}
+a:link{
+    
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+a:hover{
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.logo{
+    font-size: 28px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("images/portada.jpg");
+    background-size: 1200px,100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textoPortada {
+    margin-top: 100px;
+    color: beige;
+    font-size: 20px;
+    margin-left: 425px;
+    background-color: rgb(0, 0, 0, 0.4);
+
+}
+
+
+
+.containerArribals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1100px;
+    height: 100vh;
+    margin-left: 90px;
+    background-image: url("images/tienda.jpg")
+}
+
+.text1{
+    margin-top:100px;
+     color: beige; 
+     font-size: 20px;  
+}
+
+.clickNewArribals{
+    margin-top: 350px;
+    margin-left: 80px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 25px;
+   
+}
+
+.text2{
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    width: 1100px;
+    height: 50vh;
+    border-radius: 10px;
+   
+    
+}
+
+.img{
+    width: 350px;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url("images/backpack.jpg");
+    background-size: 400px,100vh;
+    background-repeat: no-repeat;
+    border-color: blueviolet;
+    border-radius: 20px;
+   
+}
+
+.liquidacion{
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    margin-top: 175px;
+    margin-left: 120px;
+}
+
+
+.img2{
+    width: 350px;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url("images/card1.jpg");
+    background-size: 400px,100vh;
+    background-repeat: no-repeat;
+    border-radius: 20px
+}
+
+.descp{
+    text-align: center;
+    margin-top: 0px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 18px;
+}
+
+.containerLookbook{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    width: 1200px;
+    
+
+}
+
+.enc{
+    text-align: center;
+}
+.lookbook{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/img3.jpg");
+    border-radius: 10px;
+}
+
+.descp2{
+    text-align: center;
+    margin-top: 362px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.lookbook2{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/img5.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.lookbook3{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/img6.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.lookbook4{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/img7.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.lookbook5{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/img9.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.lookbook6{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/img10.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
