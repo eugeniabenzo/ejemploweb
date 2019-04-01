@@ -6,11 +6,11 @@ html{
 }
 
 body{
-    width: 1300px;;
+    width: 100%;
     margin: 0px;
 }
 .nav{
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -39,9 +39,10 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 100vh;
     background-image:url("images/portada.jpg");
-    background-size: 900px,100vh;
+    background-size: 100%,100vh;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -61,19 +62,19 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    width: 700px;
+    margin-top: 10px;
+    width: 100%;
     height: 90vh;
-    margin-left: 300px;
     background-image: url("images/tienda.jpg");
-    background-size: 900px,100vh;
     border-radius: 10px;
+
 }
 
 .text1{
     margin-top:100px;
      color: beige; 
-     font-size: 20px;  
+     font-size: 20px; 
+     text-align: center; 
 }
 
 .clickNewArrivals{
@@ -86,15 +87,15 @@ a:hover{
    
 }
 
-.text2{
-    text-align: center;
+.centrar{
+    margin-top: 50px;
+    margin-left: 550px;
 }
 
 .container2{
     display: flex;
     justify-content: space-around;
-    margin-left: 100px;
-    width: 1100px;
+    width: 100%;
     height: 50vh;
     border-radius: 10px;
    
@@ -102,35 +103,26 @@ a:hover{
 }
 
 .img{
-    width: 350px;
+    width: 100%;
     height: 100vh;
     margin-top: 30px;
-    margin-left: 30px;
+  
     background-image: url("images/backpack.jpg");
-    background-size: 400px,100vh;
+    background-size: 100%,100vh;
     background-repeat: no-repeat;
     border-color: blueviolet;
     border-radius: 20px;
    
 }
 
-.liquidacion{
-    background-color: cadetblue;
-    border-radius: 10px;
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 20px;
-    margin-top: 175px;
-    margin-left: 120px;
-}
-
 
 .img2{
-    width: 350px;
+    width: 100%;
     height: 100vh;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url("images/card1.jpg");
-    background-size: 400px,100vh;
+    background-size: 100%,100vh;
     background-repeat: no-repeat;
     border-radius: 20px
 }
@@ -143,21 +135,28 @@ a:hover{
     border-radius: 18px;
 }
 
-.containerLookbook{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-left: 45px;
-    width: 1200px;
-    
-
+.liquidacion{
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 300px;
 }
 
 .enc{
+    margin-top: 200px;
     text-align: center;
 }
-.lookbook{
+.containerLookbook{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: 100px;
+    width: 80%;    
+}
+.lookbook{
+   
     margin-top: 50px;
     width: 300px;
     height: 400px;
@@ -184,7 +183,7 @@ a:hover{
 }
 
 .lookbook3{
-    margin-left: 20px;
+    
     margin-top: 50px;
     width: 300px;
     height: 400px;
@@ -194,7 +193,7 @@ a:hover{
 }
 
 .lookbook4{
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 50px;
     width: 300px;
     height: 400px;
@@ -204,8 +203,9 @@ a:hover{
 }
 
 .lookbook5{
-    margin-left: 20px;
+    
     margin-top: 50px;
+    margin-left: 20px;
     width: 300px;
     height: 400px;
     background-image: url("images/img9.jpg");
@@ -214,7 +214,7 @@ a:hover{
 }
 
 .lookbook6{
-    margin-left: 20px;
+    
     margin-top: 50px;
     width: 300px;
     height: 400px;
