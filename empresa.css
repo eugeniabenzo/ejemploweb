@@ -63,10 +63,11 @@ a:hover{
     align-items: center;
     margin-top: 50px;
     width: 700px;
-    height: 100vh;
+    height: 90vh;
     margin-left: 300px;
     background-image: url("images/tienda.jpg");
     background-size: 900px,100vh;
+    border-radius: 10px;
 }
 
 .text1{
